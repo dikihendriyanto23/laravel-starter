@@ -1,0 +1,98 @@
+body,
+html {
+    height: 100%;
+    position: relative;
+    background: white;
+}
+
+.div-top {
+    height: 55%;
+    width: 100%;
+    background: linear-gradient(to right, #a70919, #950917);
+}
+
+.div-bottom {
+    height: 45%;
+    width: 100%;
+}
+
+.content-home {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+}
+
+.card-app {
+    height: 235px !important;
+    width: 200px !important;
+    min-width: 200px !important;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 3%;
+    vertical-align: baseline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-app span {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.card-app:hover {
+    transform: scale(1.075);
+    transition: 0.5s;
+    background-color: #a70919;
+}
+
+.card-app:hover span {
+    color: white;
+}
+
+.card-app:hover img {
+    color: white;
+    filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(270deg)
+        brightness(113%) contrast(96%);
+    transform: rotateY(360deg);
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+    bottom: 0;
+}
+
+.copyright span span {
+    font-weight: 700;
+}
+
+.copyright img {
+    margin-inline: auto;
+    margin-bottom: 8px;
+    height: 25px;
+    width: 100px;
+}
+
+.alert {
+    position: absolute;
+    right: 0;
+    margin-right: 16px;
+}
